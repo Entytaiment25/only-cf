@@ -13,3 +13,26 @@
 
 ```sh only-cf.sh```
 # WARNING: This command must be executed every time you restart your server.
+```html
+<div>
+    <pre>
+        <code id="myCode">
+            function helloWorld() {
+                console.log("Hello, World!");
+            }
+        </code>
+    </pre>
+    <button onclick="copyToClipboard()">Copy to Clipboard</button>
+</div>
+
+<script>
+    function copyToClipboard() {
+        const codeElement = document.getElementById('myCode');
+        const textarea = document.createElement('textarea');
+        textarea.value = codeElement.innerText;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+    }
+</script>
