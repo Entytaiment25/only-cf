@@ -3,7 +3,7 @@
 - Installation:
 
 ```
-curl -O https://gist.githubusercontent.com/dnscat/ae2ef5e6a1b68eb403ac50e9a2628042/raw/a3556f68bc6457315735b8e7f2ec8c59cecc9eee/only-cf.sh
+curl -O https://gist.githubusercontent.com/pixlrs/ae2ef5e6a1b68eb403ac50e9a2628042/raw/a3556f68bc6457315735b8e7f2ec8c59cecc9eee/only-cf.sh
 ```
 
 - Reset IPtables:
